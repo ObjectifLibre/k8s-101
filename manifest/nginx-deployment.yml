@@ -1,0 +1,18 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nginx
+        version: red
+    spec:
+      containers:
+      - name: nginx
+        image: objectiflibre/nginx-demo:red
+        ports:
+        - containerPort: 80
+
