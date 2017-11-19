@@ -102,7 +102,7 @@ La solution se base sur une machine virtuelle et support plusieurs hyperviseurs
 
 .. code-block:: bash
 
-  minikube start --driver=[votre hyperviseur]
+  minikube start --vm-driver=[votre hyperviseur parmi virtualbox kvm kvm2 none]
 
 .. note::
 
