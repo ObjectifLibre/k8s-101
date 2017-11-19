@@ -51,7 +51,7 @@ Avant de commencer les travaux pratiques, télécharger (clone) les fichiers don
 
 .. code-block:: bash
 
-  git clone https://gitlab.objectif-libre.com/mcottret/k8s-101
+  git clone https://github.com/ObjectifLibre/k8s-101
 
 5. Installation de l'environnement
 
@@ -115,7 +115,7 @@ Avant de commencer les travaux pratiques, télécharger (clone) les fichiers don
 
 .. code-block:: bash
 
-  git clone https://gitlab.objectif-libre.com/mcottret/k8s-101
+  git clone https://github.com/ObjectifLibre/k8s-101
 
 Utilisation de Kubernetes
 -------------------------
