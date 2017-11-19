@@ -185,7 +185,7 @@ Utiliser le manifest **manifest/nginx-service.yml** pour créer un service et ex
 .. code-block:: bash
 
   kubectl apply -f nginx-service.yml
-  VBoxManage controlvm "minikube" natpf1 "guestnginx,tcp,,8080,,8080"
+  VBoxManage controlvm "minikube" natpf1 "guestnginx,tcp,,32080,,32080"
 
 Scaling & update strategy
 -------------------------
