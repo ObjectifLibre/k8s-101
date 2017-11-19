@@ -134,7 +134,7 @@ Nous allons commencer par créer un premier conteneur web simple qui affiche sa 
 
 .. code-block:: bash
 
-  kubectl run hello-minikube --image=objectiflibre/nginx-demo:blue --port=8080
+  kubectl run hello-minikube --image=objectiflibre/nginx-demo:blue --port=80
 
 Veŕifier que tout va bien :
 
